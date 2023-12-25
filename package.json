@@ -1,0 +1,61 @@
+{
+  "name": "Moksa",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios --simulator=\"iPhone 6 Plus (12.1)\"",
+    "quick-ios": "xcrun instruments -w \"iPhone 6 Plus (12.1)\" ; open node_modules/react-native/scripts/launchPackager.command; xcrun simctl launch \"iPhone 6 Plus (12.1)\" org.reactjs.native.example.Moksa"
+  },
+  "dependencies": {
+    "add": "^2.0.6",
+    "axios": "^0.18.0",
+    "libphonenumber-js": "^1.7.12",
+    "moment": "^2.24.0",
+    "react": "16.8.3",
+    "react-native": "0.59.10",
+    "react-native-autolink": "^1.6.0",
+    "react-native-cached-image": "^1.4.3",
+    "react-native-color-matrix-image-filters": "^5.1.4",
+    "react-native-easy-toast": "^1.2.0",
+    "react-native-fetch-blob": "^0.10.8",
+    "react-native-firebase": "^5.2.3",
+    "react-native-image-pan-zoom": "^2.1.11",
+    "react-native-image-picker": "^0.28.0",
+    "react-native-keyboard-aware-scroll-view": "^0.8.0",
+    "react-native-modal": "^7.0.2",
+    "react-native-orientation": "github:coverfy/react-native-orientation#master",
+    "react-native-remote-svg": "^1.4.0",
+    "react-native-router-flux": "^4.0.6",
+    "react-native-sideswipe": "^1.5.0",
+    "react-native-snap-carousel": "^3.7.5",
+    "react-native-splash-screen": "^3.1.1",
+    "react-native-svg": "^8.0.10",
+    "react-native-vector-icons": "^6.1.0",
+    "react-number-format": "^4.0.7",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "redux-axios-middleware": "^4.0.0",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "rn-viewpager": "^1.2.9"
+  },
+  "devDependencies": {
+    "@babel/core": "7.5.5",
+    "@babel/runtime": "7.5.5",
+    "babel-jest": "24.9.0",
+    "jest": "24.9.0",
+    "metro-react-native-babel-preset": "0.56.0",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "assets": [
+      "./src/assets/fonts/"
+    ]
+  }
+}

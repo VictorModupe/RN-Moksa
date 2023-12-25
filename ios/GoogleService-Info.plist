@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>113684399080-9c505jlmaj7gmfv6iiuj3ssnl4r8ip7t.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.113684399080-9c505jlmaj7gmfv6iiuj3ssnl4r8ip7t</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAdNiArL63Msqsg9WQMhcutoOV3l3rm-K0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>113684399080</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.moksabrewing.ios</string>
+	<key>PROJECT_ID</key>
+	<string>moksa-brewing-brewery-app</string>
+	<key>STORAGE_BUCKET</key>
+	<string>moksa-brewing-brewery-app.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<true/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:113684399080:ios:949ebf245c259c0e</string>
+	<key>DATABASE_URL</key>
+	<string>https://moksa-brewing-brewery-app.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,4 @@
+export const AUTO_LOGIN_FAILED = 101
+
+export const REPORTING_ERROR_FAILED = 901
+export const REPORTING_API_ERROR_FAILED = 999

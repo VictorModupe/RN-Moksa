@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "113684399080",
+    "firebase_url": "https://moksa-brewing-brewery-app.firebaseio.com",
+    "project_id": "moksa-brewing-brewery-app",
+    "storage_bucket": "moksa-brewing-brewery-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113684399080:android:5071e2e3fca84ae3",
+        "android_client_info": {
+          "package_name": "com.moksabrewing.android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRxXOCU7SGBaIMyY9VmGAm5cry6iJ5TNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "113684399080-3b07g50t960uog6h38euedmtbgkubq36.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "113684399080-9c505jlmaj7gmfv6iiuj3ssnl4r8ip7t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.moksabrewing.ios"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
